@@ -52,19 +52,20 @@
     6000
   ],
 
-  "Set": ["Server", "KOTH_Max",5],
+
   "Start": "koth_timer",
   "StartAll": "koth_region",
-  "Start": "koth_scoreboard",
+  "StartAll": "koth_scoreboard",
 
   "Hold": [],
 
   "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_score]",
 
-  "Complete": "koth_region",
-  "Complete": "koth_scoreboard",
-  "Complete": "koth_timer",
-  "Complete": []
+
+  "LeaveAll": "koth_region",
+  "LeaveAll": "koth_scoreboard",
+  "LeaveAll": "koth_timer",
+  "Leave": []
 
 
 }

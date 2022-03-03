@@ -1,5 +1,5 @@
 {
-"key": "koth_scoreboard",
+"Key": "koth_scoreboard",
 "Name": "Koth Scoreboard",
 "Author": "PresDaGod",
 "Quest": false,
@@ -9,7 +9,7 @@
 
 "SetScoreboard": [
   "&6&lKOTH",
-  "[PlayerHigh] = [koth_score]"
+  "[PlayerHigh] = [Koth_score]"
 ],
 
 "Wait": 20,

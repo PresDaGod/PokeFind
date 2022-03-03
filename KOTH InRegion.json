@@ -32,6 +32,13 @@
 
 "Wait": 20,
 
+"If": [],
+"Equals": [
+  "server",
+  "ongoing_koth",
+  0
+],
+
 "Skip": "Loop"
 
 

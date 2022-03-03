@@ -23,6 +23,9 @@
 
 "Comment": "ChangeScore",
 "SetPersistent": ["server","koth_start_value", "[koth_player_score]" ],
+"BroadcastMessage": "[Debug]: Player score is higher than server score",
+"SetPersistent": ["server", "player_high_name", "[PLAYER]"],
+"BroadcastMessage": "[Debug]: High score player name updated",
 
 
 "Wait": 20,

@@ -10,54 +10,12 @@
 "SetScoreboard": [
   "&6&lKOTH",
   "[player_high_name] = [koth_player_score]"
-<<<<<<< HEAD
 ],
 
-"If": [],
-"Equals": [
-  "server",
-  "koth_start_value",
-  "<",
-  "[koth_player_score]"
-],
-"Skip": "changeScoreboard",
-"Skip": "loop",
-
-
-"Comment": "changeScoreboard",
-"SetPersistent": ["server", "player_high_name", "[PLAYER]"],
 
 "Wait": 10,
 
-"If" [],
-"Equals": [
-  "counter",
-  ">",
-900
-=======
->>>>>>> 53a9da9801d766711111100d1be6c11b6d93b85d
-],
-"Skip": "LeaveAll",
-
-<<<<<<< HEAD
 "Skip": "loop",
-=======
-"If": [],
-"Equals": [
-  "server",
-  "koth_start_value",
-  "<",
-  "[koth_player_score]"
-],
-"Skip": "changeScoreboard",
-"Skip": "loop",
-
-
-"Comment": "changeScoreboard",
-"SetPersistent": ["server", "player_high_name", "[PLAYER]"],
-
-"Wait": 10,
->>>>>>> 53a9da9801d766711111100d1be6c11b6d93b85d
 
 "LeaveAll": [],
 

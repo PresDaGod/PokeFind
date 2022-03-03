@@ -5,6 +5,7 @@
   "Quest": false,
   "AllowRejoining": true,
 
+"Server": [],
   "SetPersistent": ["server", "koth_Max", 0],
   "SetPersistent": ["server", "PlayerHigh",0],
   "SetPersistent": ["koth_score",0],
@@ -49,9 +50,8 @@
   ],
 
   "Set": ["Server", "KOTH_Max",5],
-
   "Start": "koth_timer",
-  "Start": "koth_region",
+  "StartAll": "koth_region",
   "Start": "koth_scoreboard",
 
   "Hold": [],

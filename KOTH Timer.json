@@ -5,7 +5,6 @@
 "Quest": false,
 "AllowRejoining": true,
 
-"Server": [],
 "Wait": 6000,
 
 "Progress": ["koth_master"]

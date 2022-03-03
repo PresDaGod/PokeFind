@@ -3,14 +3,12 @@
   "Name": "Koth Master",
   "Author": "PresDaGod",
   "Quest": false,
-  "AllowRejoining": true,
 
-"Server": [],
   "SetPersistent": ["server", "koth_Max", 0],
   "SetPersistent": ["server", "PlayerHigh",0],
   "SetPersistent": ["koth_score",0],
 
-  "Comment": "Countdown",
+  "SendMessage": "[Debug]: Reset variables",
 
   "Skip": "break",
 
@@ -54,8 +52,11 @@
 
 
   "Start": "koth_timer",
+  "SendMessage": "[Debug]: Started Koth timer",
   "StartAll": "koth_region",
+  "SendMessage": "[Debug]: Started Koth Region",
   "StartAll": "koth_scoreboard",
+  "SendMessage": "Debug]: Started Koth Scoreboard",
 
   "Hold": [],
 

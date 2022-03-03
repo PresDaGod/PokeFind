@@ -5,7 +5,20 @@
 "Quest": false,
 "AllowRejoining": true,
 
-"Wait": 6000,
+"Set": ["server", "kothtime", 300],
+
+"Comment": "Loop",
+"Wait": 20,
+
+"Subtract": ["server", "kothtime", 1],
+"SendMessage": "[Debug] 1 second lost",
+
+"If": [],
+"Equals": ["server", "kothtime", 0],
+"Skip": "Progress",
+
+"Skip": "Loop",
+
 
 "Progress": ["koth_master"]
 

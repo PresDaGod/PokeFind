@@ -8,7 +8,7 @@
   "SetPersistent": ["server", "PlayerHigh",0],
   "SetPersistent": ["koth_score",0],
 
-  "SendMessage": "[Debug]: Reset variables",
+  "BroadcastMessage": "[Debug]: Reset variables",
 
   "Skip": "break",
 
@@ -52,11 +52,11 @@
 
 
   "Start": "koth_timer",
-  "SendMessage": "[Debug]: Started Koth timer",
+  "BroadcastMessage": "[Debug]: Started Koth timer",
   "StartAll": "koth_region",
-  "SendMessage": "[Debug]: Started Koth Region",
+  "BroadcastMessage": "[Debug]: Started Koth Region",
   "StartAll": "koth_scoreboard",
-  "SendMessage": "Debug]: Started Koth Scoreboard",
+  "BroadcastMessage": "Debug]: Started Koth Scoreboard",
 
   "Hold": [],
 

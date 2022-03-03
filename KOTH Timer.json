@@ -11,7 +11,7 @@
 "Wait": 20,
 
 "Subtract": ["server", "kothtime", 1],
-"SendMessage": "[Debug] 1 second lost",
+"BroadcastMessage": "[Debug] 1 second lost",
 
 "If": [],
 "Equals": ["server", "kothtime", 0],

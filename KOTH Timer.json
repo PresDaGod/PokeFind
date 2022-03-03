@@ -20,7 +20,7 @@
 "Skip": "Loop",
 
 
-"Progress": ["koth_master"]
+"Start": ["koth_master", 1.0, 48]
 
 
 }

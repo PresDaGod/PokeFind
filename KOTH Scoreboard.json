@@ -9,7 +9,7 @@
 
 "SetScoreboard": [
   "&6&lKOTH",
-  "[PlayerHigh] = [Koth_score]"
+  "[PlayerHigh] = [koth_score]"
 ],
 
 "Wait": 20,

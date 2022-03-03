@@ -1,31 +1,30 @@
 {
-"Key": "koth_scoreboard",
-"Name": "Koth Scoreboard",
-"Author": "PresDaGod",
-"Quest": false,
-"AllowRejoining": true,
+	"Key": "koth_scoreboard",
+	"Name": "Koth Scoreboard",
+	"Author": "PresDaGod",
+	"Quest": false,
+	"AllowRejoining": true,
 
-"Comment": "loop",
-"Add" ["counter", 1],
-"SetScoreboard": [
-  "&6&lKOTH",
-  "[player_high_name] = [koth_player_score]"
-],
-  "BroadcastMessage": "[Debug]: Changed scoreboard",
+	"Comment": "loop",
+	"SetScoreboard": [
+		"&6&lKOTH",
+		"[player_high_name] = [koth_player_score]"
+	],
+	"BroadcastMessage": "[Debug]: Changed scoreboard",
 
 
-"Wait": 20,
+	"Wait": 20,
 
-"If":[],
-"Equals" [
-  "server",
-  "ongoing_koth",
-  0
-],
-"Skip": "final",
-"Skip": "loop",
+	"If": [],
+	"Equals": [
+		"server",
+		"ongoing_koth",
+		0
+	],
+	"Skip": "final",
+	"Skip": "loop",
 
-"Comment": "final",
-"LeaveAll": [],
+	"Comment": "final",
+	"LeaveAll": []
 
 }

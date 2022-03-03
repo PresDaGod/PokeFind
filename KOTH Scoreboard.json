@@ -11,9 +11,10 @@
   "&6&lKOTH",
   "[player_high_name] = [koth_player_score]"
 ],
+  "BroadcastMessage": "[Debug]: Changed scoreboard",
 
 
-"Wait": 10,
+"Wait": 20,
 
 "Skip": "loop",
 

@@ -49,7 +49,7 @@
     0.99,
     6000
   ],
-
+  "BroadcastMessage": "[Debug]: Set boss bar",
 
   "Start": "koth_timer",
   "BroadcastMessage": "[Debug]: Started Koth timer",

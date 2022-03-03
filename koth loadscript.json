@@ -1,5 +1,6 @@
 {
   "Key": "koth_loadscrit",
+  "Author": "PresDaGod",
 
   "LoadScript": "https://raw.githubusercontent.com/PresDaGod/PokeFind/main/KOTH%20InRegion.json",
   "LoadScript": "https://raw.githubusercontent.com/PresDaGod/PokeFind/main/KOTH%20Scoreboard.json",

@@ -12,9 +12,13 @@
   "ongoing_koth",
   0
 ],
+"Skip": "LeaveAll",
+"Skip": "InRegion",
 
+
+"Comment": "InRegion",
 "If": [],
-"InRegion": [898,72, 573, 906,78,583],
+"InRegion": [898,72,573,906,78,583],
 "Skip": "score",
 "Skip": "Loop",
 
@@ -39,8 +43,10 @@
 
 "Wait": 20,
 
+"Skip": "Loop",
 
-"Skip": "Loop"
+"Comment": "LeaveAll",
+"LeaveAll": []
 
 
 }

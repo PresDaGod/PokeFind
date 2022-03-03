@@ -1,6 +1,6 @@
 {
-"key": "koth_region",
-"Name": "Koth Region",
+"key": "koth_start",
+"Name": "Koth start",
 "Author": "PresDaGod",
 
 "Command": "/Startkoth",

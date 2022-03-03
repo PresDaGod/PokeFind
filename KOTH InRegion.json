@@ -7,6 +7,13 @@
 
 "Comment": "Loop",
 "If": [],
+"Equals": [
+  "server",
+  "ongoing_koth",
+  0
+],
+
+"If": [],
 "InRegion": [898,72, 573, 906,78,583],
 "Skip": "score",
 "Skip": "Loop",
@@ -32,12 +39,6 @@
 
 "Wait": 20,
 
-"If": [],
-"Equals": [
-  "server",
-  "ongoing_koth",
-  0
-],
 
 "Skip": "Loop"
 

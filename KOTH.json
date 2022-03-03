@@ -64,7 +64,7 @@
 
   "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_player_score]",
 
-  "Set" ["server", "ongoing_koth", 0],
+  "Set": ["server", "ongoing_koth", 0],
   "LeaveAll": "koth_region",
   "LeaveAll": "koth_scoreboard",
   "LeaveAll": "koth_timer",

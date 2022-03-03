@@ -1,0 +1,14 @@
+{
+"key": "koth_timer",
+"Name": "Koth Timer",
+"Author": "PresDaGod",
+"Quest": false,
+"AllowRejoining": true,
+
+"Server": [],
+"Wait:": 6000,
+
+"Progress": ["koth_master"]
+
+
+}

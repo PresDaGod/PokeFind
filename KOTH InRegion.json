@@ -1,0 +1,34 @@
+{
+"key": "koth_region",
+"Name": "Koth Region",
+"Author": "PresDaGod",
+"Quest": false,
+"AllowRejoining": true,
+
+"Comment": "Loop",
+
+"InRegion": [898,72, 573, 906,78,583],
+
+"Add": ["koth_score", 1],
+
+"If": [],
+"Equals": [
+  "server",
+  "koth_Max",
+  "<",
+  "[koth_score]"
+],
+"Skip": "ChangeScore",
+"Skip": "Wait",
+
+"Comment": "ChangeScore",
+"SetPersistent": ["server","koth_Max", "[koth_score]" ],
+"SetPersistent": ["server", "PlayerHigh", "[PLAYER]"],
+
+
+"Wait": 20,
+
+"Skip": "Loop"
+
+
+}

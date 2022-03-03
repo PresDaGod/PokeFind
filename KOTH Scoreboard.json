@@ -1,0 +1,19 @@
+{
+"key": "koth_scoreboard",
+"Name": "Koth Scoreboard",
+"Author": "PresDaGod",
+"Quest": false,
+"AllowRejoining": true,
+
+"Comment": "loop",
+
+"SetScoreboard": [
+  "<#FB3207>&lK<#FB4720>&lO<#FE6949>&lT<#FF9680>&lH",
+  "[PlayerHigh] = [koth_score]"
+],
+
+"Wait": 20,
+
+"Skip": "loop"
+
+}

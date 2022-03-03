@@ -1,0 +1,66 @@
+{
+  "key": "koth_master",
+  "Name": "Koth Master",
+  "Author": "PresDaGod",
+  "Quest": false,
+  "AllowRejoining": true,
+
+  "SetPersistent": ["server", "koth_Max", 0],
+  "SetPersistent": ["server", "PlayerHigh",0],
+  "SetPersistent": ["koth_score",0],
+
+  "Comment": "Countdown",
+
+  "BroadcastMessage": "&4&l KOTH will be starting in 5 minutes",
+  "Wait": 3600,
+  "BroadcastMessage": "&4&l KOTH will be starting in 2 minutes",
+  "Wait": 1200,
+  "BroadcastMessage": "&4&l KOTH will be starting in 1 minute",
+  "Wait": 600,
+  "BroadcastMessage": "&4&l KOTH will be starting in 30 seconds",
+  "Wait": 200,
+  "BroadcastMessage": "&4&l Koth will be starting in 10 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 9 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 8 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 7 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 6 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 5 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 4 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 3 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 2 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l Koth will be starting in 1 seconds",
+  "Wait": 20,
+  "BroadcastMessage": "&4&l the KOTH is now starting in PVP",
+
+  "SetBossBar": [
+    "KOTH",
+    "Red",
+    6000
+  ],
+
+  "Set": ["Server", "KOTH_Max",5],
+
+  "Start": "koth_timer",
+  "Start": "koth_region",
+  "Start": "koth_scoreboard",
+
+  "Hold": [],
+
+  "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_score]",
+
+  "Complete": "koth_region",
+  "Complete": "koth_scoreboard",
+  "Complete": "koth_timer",
+  "Complete": []
+
+
+}

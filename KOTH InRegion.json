@@ -6,6 +6,7 @@
 "AllowRejoining": true,
 
 "Comment": "Loop",
+"Wait": 1,
 "If": [],
 "Equals": [
   "server",
@@ -17,6 +18,7 @@
 
 
 "Comment": "InRegion",
+"Wait": 1,
 "If": [],
 "InRegion": [898,72,573,906,78,583],
 "Skip": "score",

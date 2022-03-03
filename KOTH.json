@@ -1,12 +1,12 @@
 {
-  "key": "koth_master",
+  "Key": "koth_master",
   "Name": "Koth Master",
   "Author": "PresDaGod",
   "Quest": false,
 
-  "SetPersistent": ["server", "koth_Max", 0],
-  "SetPersistent": ["server", "PlayerHigh",0],
-  "SetPersistent": ["koth_score",0],
+  "SetPersistent": ["server", "koth_start_value", 1],
+  "SetPersistent": ["server", "player_high_name",0],
+  "SetPersistent": ["koth_player_score",0],
 
   "BroadcastMessage": "[Debug]: Reset variables",
 
@@ -59,6 +59,7 @@
   "BroadcastMessage": "Debug]: Started Koth Scoreboard",
 
   "Hold": [],
+  "Comment": "Hold",
 
   "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_score]",
 

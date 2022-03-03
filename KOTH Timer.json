@@ -19,10 +19,9 @@
 
 "Skip": "Loop",
 
-
 "Comment": "Start",
 
-"Start": ["koth_master", 1.0, 48]
+"Start": [1.0, 48,"koth_master"]
 
 
 }

@@ -1,5 +1,5 @@
 {
-"key": "koth_region",
+"Key": "koth_region",
 "Name": "Koth Region",
 "Author": "PresDaGod",
 "Quest": false,
@@ -9,21 +9,20 @@
 
 "InRegion": [898,72, 573, 906,78,583],
 
-"Add": ["koth_score", 1],
+"Add": ["koth_player_score", 1],
 
 "If": [],
 "Equals": [
   "server",
-  "koth_Max",
+  "koth_start_value",
   "<",
-  "[koth_score]"
+  "[koth_player_score]"
 ],
 "Skip": "ChangeScore",
 "Skip": "Wait",
 
 "Comment": "ChangeScore",
-"SetPersistent": ["server","koth_Max", "[koth_score]" ],
-"SetPersistent": ["server", "PlayerHigh", "[PLAYER]"],
+"SetPersistent": ["server","koth_start_value", "[koth_player_score]" ],
 
 
 "Wait": 20,

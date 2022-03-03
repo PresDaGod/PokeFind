@@ -20,7 +20,7 @@
   "[koth_player_score]"
 ],
 "SetPersistent": ["server", "player_high_name", "[PLAYER]"],
-
+"Dummy": [],
 "Wait": 20,
 
 "Skip": "loop"

@@ -4,6 +4,7 @@
   "Author": "PresDaGod",
   "Quest": false,
 
+  "Set": ["server", "ongoing_koth", 1],
   "SetPersistent": ["server", "koth_start_value", 1],
   "SetPersistent": ["server", "player_high_name",0],
   "SetPersistent": ["koth_player_score",0],
@@ -63,7 +64,7 @@
 
   "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_player_score]",
 
-
+  "Set" ["server", "ongoing_koth", 0],
   "LeaveAll": "koth_region",
   "LeaveAll": "koth_scoreboard",
   "LeaveAll": "koth_timer",

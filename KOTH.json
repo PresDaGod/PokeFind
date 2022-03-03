@@ -12,12 +12,15 @@
 
   "Comment": "Countdown",
 
+  "Skip": "break",
+
   "BroadcastMessage": "&4&l KOTH will be starting in 5 minutes",
   "Wait": 3600,
   "BroadcastMessage": "&4&l KOTH will be starting in 2 minutes",
   "Wait": 1200,
   "BroadcastMessage": "&4&l KOTH will be starting in 1 minute",
   "Wait": 600,
+  "Comment": "break",
   "BroadcastMessage": "&4&l KOTH will be starting in 30 seconds",
   "Wait": 200,
   "BroadcastMessage": "&4&l Koth will be starting in 10 seconds",

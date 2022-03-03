@@ -6,7 +6,7 @@
 "AllowRejoining": true,
 
 "Comment": "loop",
-
+"Add" ["counter", 1],
 "SetScoreboard": [
   "&6&lKOTH",
   "[player_high_name] = [koth_player_score]"
@@ -28,6 +28,16 @@
 
 "Wait": 10,
 
-"Skip": "loop"
+"If" [],
+"Equals": [
+  "counter",
+  ">",
+900
+],
+"Skip": "LeaveAll",
+
+"Skip": "loop",
+
+"LeaveAll": [],
 
 }

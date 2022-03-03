@@ -61,7 +61,7 @@
   "Hold": [],
   "Comment": "Hold",
 
-  "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_score]",
+  "BroadcastMessage": "[PlayerHigh] Has won the KOTH with a score of [koth_player_score]",
 
 
   "LeaveAll": "koth_region",

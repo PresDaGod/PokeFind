@@ -19,9 +19,14 @@
   "<",
   "[koth_player_score]"
 ],
+"Skip": "changeScoreboard",
+"Skip": "loop",
+
+
+"Comment": "changeScoreboard",
 "SetPersistent": ["server", "player_high_name", "[PLAYER]"],
-"Dummy": [],
-"Wait": 20,
+
+"Wait": 10,
 
 "Skip": "loop"
 

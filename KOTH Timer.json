@@ -5,7 +5,7 @@
 "Quest": false,
 "AllowRejoining": true,
 
-"Set": ["server", "kothtime", 300],
+"Set": ["server", "kothtime", 60],
 
 "Comment": "Loop",
 "Wait": 20,

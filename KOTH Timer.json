@@ -6,7 +6,7 @@
 "AllowRejoining": true,
 
 "Server": [],
-"Wait:": 6000,
+"Wait": 6000,
 
 "Progress": ["koth_master"]
 

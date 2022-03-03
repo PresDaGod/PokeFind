@@ -6,11 +6,13 @@
 "AllowRejoining": true,
 
 "Comment": "Loop",
-
+"If": [],
 "InRegion": [898,72, 573, 906,78,583],
+"Skip": "score",
+"Skip": "Loop",
 
+"Comment":"score",
 "Add": ["koth_player_score", 1],
-
 "If": [],
 "Equals": [
   "server",

@@ -9,10 +9,24 @@
 
 "SetScoreboard": [
   "&6&lKOTH",
-  "[PlayerHigh] = [koth_score]"
+  "[player_high_name] = [koth_player_score]"
 ],
 
-"Wait": 20,
+"If": [],
+"Equals": [
+  "server",
+  "koth_start_value",
+  "<",
+  "[koth_player_score]"
+],
+"Skip": "changeScoreboard",
+"Skip": "loop",
+
+
+"Comment": "changeScoreboard",
+"SetPersistent": ["server", "player_high_name", "[PLAYER]"],
+
+"Wait": 10,
 
 "Skip": "loop"
 
